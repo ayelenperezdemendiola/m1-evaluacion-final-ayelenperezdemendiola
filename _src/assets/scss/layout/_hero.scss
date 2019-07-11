@@ -1,6 +1,7 @@
 .hero {
   min-height: 100vh;
   background: url('../images/cover.jpg') center center no-repeat;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
