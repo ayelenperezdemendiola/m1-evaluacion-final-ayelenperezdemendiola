@@ -8,22 +8,39 @@
 }
 .reasons__tittle{
   font-family: $fontTittle;
-  font-size: 24px;
+  font-size: $fontSizeH2;
   font-weight: bold;
-
+  @media all and(min-width: 768px){
+    font-size: 26px;
+  }
+  @media all and(min-width: 1200px){
+  font-size: 32px;
 }
+}
+
 .list__item__tittle{
   font-family: $fontTittle;
-  font-size: 18px;
+  font-size: $fontSizeText;
   font-weight: bold;
+  @media all and (min-width: 768px){
+    font-size: 24px;
+  }
 }
+
 .list__item__paragraph{
   font-family: $fontText;
-  font-size: 18px;
+  font-size: $fontSizeText;
   font-weight: 300;
+  @media all and (min-width: 768px){
+    font-size: 20px;
+  }
 }
+
 .list__item {
   margin:45px 0px;
+  @media all and(min-width: 768px){
+    margin: none;
+  }
 }
 .list__item:nth-child{
   margin: none;
@@ -56,6 +73,12 @@
     &:hover{
       transform: scale(1.1);
   }
+  @media all and (min-width: 768px){
+    width: 210px;
+  }
+  @media all and (min-width: 1200px){
+    width: 255px;
+}
 }
 
 @media all and(min-width: 768px){
