@@ -3,10 +3,10 @@
   margin: 0px;
   padding: 0px;
 }
-body{
-  background-color: pink;
+.central__column{
+  margin: 0 15px;
+  background-color: yellow;
 }
-
 
 /*HEADER*/
 .page__header{
@@ -35,14 +35,16 @@ body{
 }
 
 /*HERO*/
-.page__hero {
+.hero {
   min-height: 100vh;
   background: url('../images/cover.jpg') center center no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
+  text-align: center;
 }
+
 .tittle-description{
   transform: translateY(-50%);
 }
@@ -87,13 +89,11 @@ body{
 }
 
 /*SECTION MAIN INTRODUCTION*/
-.page__introduction {
-  background-color: lightblue;
-}
+
 .introduction-container {
-  background-color: yellow;
   text-align: left;
   line-height: 30px;
+  background-color: #ffffff;
 }
 
 .introduction__text{
@@ -139,7 +139,7 @@ body{
 }
 /*3 reasons*/
 .page__reasons {
-  background-color: orange;
+  background-color:#eff9ff;
   text-align: center;
 }
 .reasons__list {
