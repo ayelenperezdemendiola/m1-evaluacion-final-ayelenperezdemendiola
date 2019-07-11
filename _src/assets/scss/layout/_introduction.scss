@@ -7,23 +7,35 @@
 
 .introduction__text{
   font-family: $fontText;
-  font-size: 14px;
+  font-size: $fontSizeSmall;
   color: #8ccbea;
   text-transform: capitalize;
+  @media all and(min-width: 1200px){
+    font-size: 16px;
+  }
 }
 
 .introduction__tittle{
   font-family: $fontTittle;
-  font-size: 24px;
+  font-size: $fontSizeH2;
   font-weight: bold;
   text-transform: capitalize;
+  @media all and(min-width: 768px){
+    font-size: 26px;
+  }
+  @media all and(min-width: 1200px){
+    font-size: 32px;
+  }
 }
 
 .introduction__paragraph{
   font-family: $fontText;
-  font-size: 18px;
+  font-size: $fontSizeText;
   font-weight: 300;
   margin-top: 15px;
+  @media all and(min-width:768px){
+    font-size: 20px;
+  }
 }
 .container-link {
   background-color: #ffffff;
@@ -38,6 +50,12 @@
     &:hover{
       transform: scale(1.1);
     }
+    @media all and(min-width: 768px){
+      width: 91px;
+    }
+    @media all and(min-width: 1200px){
+      width: 160px;
+}
 }
 
 .link-go{
