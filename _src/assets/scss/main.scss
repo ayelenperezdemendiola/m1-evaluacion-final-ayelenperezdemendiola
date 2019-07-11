@@ -5,7 +5,6 @@
 }
 .central__column{
   margin: 0 15px;
-  background-color: yellow;
 }
 
 /*HEADER*/
@@ -88,12 +87,13 @@
   text-decoration: none;
 }
 
-/*SECTION MAIN INTRODUCTION*/
+/*SECTION INTRODUCTION*/
 
 .introduction-container {
   text-align: left;
   line-height: 30px;
   background-color: #ffffff;
+  margin: 30px 0 45px;
 }
 
 .introduction__text{
@@ -114,6 +114,7 @@
   font-family: 'Roboto Slab', serif;
   font-size: 18px;
   font-weight: 300;
+  margin-top: 15px;
 }
 .container-link {
   background-color: #ffffff;
@@ -124,6 +125,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 30px;
 }
 .link-go{
   font-family: 'Roboto Slab', serif;
@@ -141,6 +143,7 @@
 .page__reasons {
   background-color:#eff9ff;
   text-align: center;
+  padding: 30px 0 60px;
 }
 .reasons__list {
   list-style: none;
@@ -149,6 +152,7 @@
   font-family: 'Roboto Slab', serif;
   font-size: 24px;
   font-weight: bold;
+
 }
 .list__item__tittle{
   font-family: 'Roboto Slab', serif;
@@ -168,12 +172,15 @@
 }
 .button__more-reasons{
   text-decoration: none;
+  border: none;
 }
 .button__more-reasons:hover{
     text-decoration: none;
+    border: none;
   }
 .button__more-reasons:visited{
     text-decoration: none;
+    border: none;
   }
 .button__more-reasons{
   width: 184px;
