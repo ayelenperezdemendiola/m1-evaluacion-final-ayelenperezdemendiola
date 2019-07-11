@@ -89,8 +89,6 @@ body{
 }
 .introduction-container {
   background-color: yellow;
-  margin-top: 30px;
-  margin-bottom: 45px;
   text-align: left;
   line-height: 30px;
 }
@@ -123,7 +121,6 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 30px 0 45px 0;
 }
 .link-go{
   font-family: 'Roboto Slab', serif;
@@ -138,4 +135,31 @@ body{
   text-decoration: none;
 }
 /*3 reasons*/
-
+.reasons {
+  background-color: orange;
+  text-align: center;
+}
+.reasons__list {
+  list-style: none;
+}
+.reasons__tittle{
+  font-family: 'Roboto Slab', serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+.list__item__tittle{
+  font-family: 'Roboto Slab', serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+.list__item__paragraph{
+  font-family: 'Roboto Slab', serif;
+  font-size: 18px;
+  font-weight: 300;
+}
+.list__item {
+  margin:45px 0px;
+}
+.list__item:nth-child{
+  margin: none;
+}
