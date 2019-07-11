@@ -72,3 +72,31 @@
 .hero__button-container .link:visited{
   text-decoration: none;
 }
+
+/*SECTION MAIN INTRODUCTION*/
+.main__introduction-container {
+  margin-top: 30px;
+  margin-bottom: 45px;
+  text-align: left;
+  line-height: 30px;
+}
+
+.introduction__text{
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  color: #8ccbea;
+  text-transform: capitalize;
+}
+
+.introduction__tittle{
+  font-family: 'Roboto Slab', serif;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.introduction__paragraph{
+  font-family: 'Roboto Slab', serif;
+  font-size: 18px;
+  font-weight: 300;
+}
