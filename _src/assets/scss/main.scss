@@ -1,8 +1,30 @@
-@import 'core/settings';
-@import 'core/links';
+* {
+  margin: 0px;
+  padding: 0px;
+}
+/*HEADER*/
 
-body {
-	background: url('../images/logo-adalab-80px.png') center center no-repeat $color-white;
-	margin: 0;
-	height: 100vh;
+/*HERO*/
+.main__hero {
+  min-height: 100vh;
+  background: url('../images/cover.jpg') center center no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero__tittle{
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Roboto Slab', serif;
+  font-size: 42px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.hero__description{
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  font-size: 16px;
+  font-weight: normal;
+  color: #ffffff;
 }
