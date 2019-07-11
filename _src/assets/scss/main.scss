@@ -163,3 +163,25 @@ body{
 .list__item:nth-child{
   margin: none;
 }
+.button__more-reasons{
+  text-decoration: none;
+}
+.button__more-reasons:hover{
+    text-decoration: none;
+  }
+.button__more-reasons:visited{
+    text-decoration: none;
+  }
+.button__more-reasons{
+  width: 184px;
+  height: 45px;
+  background-color: #f26002;
+  color: #ffffff;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300px;
+  font-size: 20px;
+  border-radius: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
