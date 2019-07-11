@@ -32,7 +32,7 @@ body{
 }
 
 /*HERO*/
-.hero {
+.page__hero {
   min-height: 100vh;
   background: url('../images/cover.jpg') center center no-repeat;
   display: flex;
@@ -84,7 +84,7 @@ body{
 }
 
 /*SECTION MAIN INTRODUCTION*/
-.main__introduction {
+.page__introduction {
   background-color: lightblue;
 }
 .introduction-container {
@@ -135,7 +135,7 @@ body{
   text-decoration: none;
 }
 /*3 reasons*/
-.reasons {
+.page__reasons {
   background-color: orange;
   text-align: center;
 }
