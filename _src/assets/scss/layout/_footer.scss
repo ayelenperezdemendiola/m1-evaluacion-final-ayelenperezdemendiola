@@ -58,3 +58,15 @@
     color: #ffffff;
     line-height: 30px;
 }
+
+@media all and (min-width: 768px){
+.menu-social__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.copy-text__container{
+  order: -1;
+}
+}
