@@ -44,10 +44,10 @@
 
 .link-scroll-down{
   text-decoration: none;
-}
-.link-scroll-down:hover{
-  text-decoration: none;
-}
-.link-scroll-down:visited{
-  text-decoration: none;
-}
+    &:hover{
+    text-decoration: none;
+    }
+    &:visited{
+    text-decoration: none;
+    }
+  }

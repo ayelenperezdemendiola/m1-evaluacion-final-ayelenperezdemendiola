@@ -35,16 +35,20 @@
   justify-content: center;
   align-items: center;
   margin-top: 30px;
+    &:hover{
+      transform: scale(1.1);
+    }
 }
+
 .link-go{
   font-family: 'Roboto Slab', serif;
   font-size: 20px;
   color: #f26002;
   text-decoration: none;
-}
-.link-go:hover{
-  text-decoration: none;
-}
-.link-go:visited{
-  text-decoration: none;
+    &:hover{
+    text-decoration: none;
+    }
+    &:visited{
+    text-decoration: none;
+  }
 }

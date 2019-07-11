@@ -23,32 +23,36 @@
   list-style: none;
   line-height: 30px;
 }
+
 .link-menu{
   text-decoration: none;
   color: #ffffff;
-}
-.link-menu:hover{
-  text-decoration: none
-}
-.link-menu:visited{
-  text-decoration: none;
-}
+    &:hover{
+    text-decoration: none
+    }
+    &:visited{
+    text-decoration: none;
+    }
+  }
+
 /*social media*/
 .footer__social-media-list{
   list-style: none;
   line-height: 30px;
   margin: 30px 0px;
 }
+
 .link-social-media{
   text-decoration: none;
   color: #ffffff;
-}
-.link-social-media:hover{
+    &:hover{
   text-decoration: none;
-}
-.link-social-media:visited{
-  text-decoration: none;
-}
+    }
+    &:visited{
+    text-decoration: none;
+    }
+  }
+
 .heart{
   color: #f26002;
 }
