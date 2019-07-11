@@ -6,21 +6,21 @@
 }
 
 .introduction__text{
-  font-family: 'Roboto', sans-serif;
+  font-family: $fontText;
   font-size: 14px;
   color: #8ccbea;
   text-transform: capitalize;
 }
 
 .introduction__tittle{
-  font-family: 'Roboto Slab', serif;
+  font-family: $fontTittle;
   font-size: 24px;
   font-weight: bold;
   text-transform: capitalize;
 }
 
 .introduction__paragraph{
-  font-family: 'Roboto Slab', serif;
+  font-family: $fontText;
   font-size: 18px;
   font-weight: 300;
   margin-top: 15px;
@@ -41,7 +41,7 @@
 }
 
 .link-go{
-  font-family: 'Roboto Slab', serif;
+  font-family: $fontText;
   font-size: 20px;
   color: #f26002;
   text-decoration: none;

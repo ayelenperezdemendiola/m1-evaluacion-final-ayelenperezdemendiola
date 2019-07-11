@@ -7,18 +7,18 @@
   list-style: none;
 }
 .reasons__tittle{
-  font-family: 'Roboto Slab', serif;
+  font-family: $fontTittle;
   font-size: 24px;
   font-weight: bold;
 
 }
 .list__item__tittle{
-  font-family: 'Roboto Slab', serif;
+  font-family: $fontTittle;
   font-size: 18px;
   font-weight: bold;
 }
 .list__item__paragraph{
-  font-family: 'Roboto Slab', serif;
+  font-family: $fontText;
   font-size: 18px;
   font-weight: 300;
 }
@@ -45,7 +45,7 @@
   height: 45px;
   background-color: #f26002;
   color: #ffffff;
-  font-family: 'Roboto Slab', serif;
+  font-family: $fontText;
   font-weight: 300px;
   font-size: 20px;
   border-radius: 22px;
@@ -53,6 +53,9 @@
   justify-content: center;
   align-items: center;
   margin: auto;
+    &:hover{
+      transform: scale(1.1);
+  }
 }
 
 @media all and(min-width: 768px){

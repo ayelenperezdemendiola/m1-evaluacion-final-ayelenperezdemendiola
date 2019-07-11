@@ -16,7 +16,7 @@
 .hero__tittle{
   text-align: center;
   text-transform: uppercase;
-  font-family: 'Roboto Slab', serif;
+  font-family: $fontTittle;
   font-size: 42px;
   font-weight: bold;
   color: #ffffff;
@@ -24,7 +24,7 @@
 
 .hero__description{
   text-align: center;
-  font-family: 'Roboto Slab', serif;
+  font-family: $fontText;
   font-size: 16px;
   font-weight: normal;
   color: #ffffff;
