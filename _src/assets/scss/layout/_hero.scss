@@ -1,0 +1,52 @@
+.hero {
+  min-height: 100vh;
+  background: url('../images/cover.jpg') center center no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+}
+
+.tittle-description{
+  transform: translateY(-50%);
+}
+
+.hero__tittle{
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Roboto Slab', serif;
+  font-size: 42px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.hero__description{
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  font-size: 16px;
+  font-weight: normal;
+  color: #ffffff;
+}
+
+.hero__button-container{
+  margin-bottom: 50px;
+  background-color: #ffffff;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link-scroll-down{
+  text-decoration: none;
+}
+.link-scroll-down:hover{
+  text-decoration: none;
+}
+.link-scroll-down:visited{
+  text-decoration: none;
+}

@@ -1,0 +1,50 @@
+.introduction-container {
+  text-align: left;
+  line-height: 30px;
+  background-color: #ffffff;
+  margin: 30px 0 45px;
+}
+
+.introduction__text{
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  color: #8ccbea;
+  text-transform: capitalize;
+}
+
+.introduction__tittle{
+  font-family: 'Roboto Slab', serif;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.introduction__paragraph{
+  font-family: 'Roboto Slab', serif;
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: 15px;
+}
+.container-link {
+  background-color: #ffffff;
+  border: solid 2px #f26002;
+  border-radius: 22px;
+  width: 76px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.link-go{
+  font-family: 'Roboto Slab', serif;
+  font-size: 20px;
+  color: #f26002;
+  text-decoration: none;
+}
+.link-go:hover{
+  text-decoration: none;
+}
+.link-go:visited{
+  text-decoration: none;
+}

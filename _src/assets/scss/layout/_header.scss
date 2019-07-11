@@ -1,0 +1,24 @@
+.page__header{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  box-sizing: border-box;
+  width: 44px;
+  height: 44px;
+}
+.menu__button{
+  background-color: #0271bc;
+  text-decoration: none;
+  border: none;
+}
+.menu__button:hover{
+  text-decoration: none;
+  border: none;
+}
+.menu__button:visited{
+  text-decoration: none;
+  border: none;
+}
+.menu__icon{
+  margin: 14px;
+}
