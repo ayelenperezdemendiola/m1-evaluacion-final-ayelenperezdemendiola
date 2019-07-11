@@ -34,7 +34,7 @@
   background: url('../images/cover.jpg') center center no-repeat;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
 }
 .hero__tittle{
@@ -61,4 +61,5 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 45px 0;
 }
