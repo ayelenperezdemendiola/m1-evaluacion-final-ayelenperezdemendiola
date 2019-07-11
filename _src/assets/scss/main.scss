@@ -11,16 +11,19 @@
   top: 0px;
   left: 0px;
   box-sizing: border-box;
-  background-color: #0271bc;
   width: 44px;
   height: 44px;
+}
+.menu__button{
+  background-color: #0271bc;
+  text-decoration: none;
 }
 .menu__icon{
   margin: 14px;
 }
 
 /*HERO*/
-.main__hero {
+.hero {
   min-height: 100vh;
   background: url('../images/cover.jpg') center center no-repeat;
   display: flex;
