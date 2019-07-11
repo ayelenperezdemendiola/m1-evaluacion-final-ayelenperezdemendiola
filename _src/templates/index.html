@@ -9,108 +9,24 @@
 	<link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
+<!--HEADER-->
+<partial src="_header.html" label="header"></partial>
 
-  <header class="page__header">
-      <button type="button" class="menu__button">
-      <img class="menu__icon" src="assets/images/ico-menu.svg" alt="botón menu">
-      </button>
-  </header>
-
+<!--MAIN-->
   <main class="page__main">
-    <section class="hero" id="hero__section">
 
-      <div class="tittle-description">
-      <div class="central__column">
-        <h1 class="hero__tittle">anonymus proxy</h1>
-        <p class="hero__description">In hac habitasse platea dictumst.</p>
-      </div>
-    </div>
+    <!--Hero section-->
+    <parcial src="_hero.html" label="hero"></parcial>
 
-      <a class="link link-scroll-down" href="#principal__section">
-      <div class="hero__button-container">
-      <img class="hero__button" src="assets/images/ico-scroll-down.svg" alt="ícono de scroll">
-      </div>
-      </a>
+    <!--Introduction section-->
+    <partial src="_introduction.html" label="introductin"></partial>
 
+    <!--Reasons section-->
+    <partial src="_reasons.html" label="reasons"></partial>
 
-    </section>
-
-    <section class="page__introduction" id="principal__section">
-      <div class="central__column">
-
-        <div class="introduction-container">
-          <p class="introduction__text">insomnia tips</p>
-          <h2  class="introduction__tittle">looking through a window</h2>
-          <p class="introduction__paragraph">Donec accumsan, nulla ut volutpat porttitor, quam odio tempus felis, at luctus ex diam nec lectus. Vivamus semper sodales rutrum.</p>
-          <a class="link link-go" href="#">
-          <div class="container-link">
-              Go
-          </div>
-        </a>
-        </div>
-
-      </div>
-    </section>
-
-    <section class="page__reasons">
-        <div class="central__column">
-          <h2 class="reasons__tittle">3 Reasons To Purchase</h2>
-          <ul class="reasons__list">
-          <li class="list__item">
-          <div class="reason1">
-          <h3 class="list__item__tittle">Ut sed metus</h3>
-          <p class="list__item__paragraph">Lorem ipsum dolor sit amet, consecteur.</p>
-        </div>
-        </li>
-
-        <li class="list__item">
-          <div class="reason2">
-          <h3 class="list__item__tittle">Curabitur ac erat</h3>
-          <p class="list__item__paragraph">Mauris mattis urna quis lorem molestie.</p>
-          </div>
-        </li>
-
-        <li class="list__item">
-          <div class="reason3">
-          <h3 class="list__item__tittle">Morbi dictum</h3>
-          <p class="list__item__paragraph">Aliquam in dolor et dolor tincidunt.</p>
-          </div>
-        </li>
-
-      </ul>
-      <button type="button" class="button__more-reasons">More reasons</button>
-    </div>
-    </section>
 </main>
-<footer class="page__footer">
-<div class="central__column">
+<!--FOOTER-->
+<partial src="_footer.html" label="footer"></partial>
 
-    <a class="link link-scroll-up" href="#hero__section">
-      <div class="link-scroll-up__container">
-        <img class="footer__icon" src="assets/images/ico-arrow.svg" alt="ícono de scroll">
-      </div>
-    </a>
-
-
-  <nav class="footer__nav">
-    <ul class="nav__menu">
-      <li class="menu__item"><a href="#"class="link link-menu">articles</a></li>
-      <li class="menu__item"><a href="#" class="link link-menu">books</a></li>
-      <li class="menu_-item"><a href="#" class="link link-menu">events</a></li>
-      <li class="menu__item"><a href="#" class="link link-menu">reasons</a></li>
-      <li class="menu__item"><a href="#" class="link link-menu">tips</a></li>
-    </ul>
-  </nav>
-    <ul class="footer__social-media-list">
-      <li class="social-media-list__item"><a href="#" class="link link-social-media">twitter</a></li>
-      <li class="social-media-list__item"><a href="#" class="link link-social-media">instagram</a></li>
-      <li class="social-media-list"><a href="#" class="link link-social-media">mastodon-social</a></li>
-    </ul>
-    <div class="copy-text__container">
-    <p class="copyright">©2017</p>
-    <p class="final-text">we <span class="heart">❤︎</span>components</p>
-    </div>
-</div>
-</footer>
 </body>
 </html>
