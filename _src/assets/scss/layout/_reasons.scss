@@ -59,18 +59,32 @@
   .reasons__list{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: auto 1fr;
   }
-  .reason1{
+  .reason1 .list__item__tittle{
     grid-column: 1/2;
     grid-row: 1/2;
   }
-  .reason2{
+  .reason1 .list__item__paragraph{
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+
+  .reason2 .list__item__tittle{
     grid-column: 2/3;
     grid-row: 1/2;
   }
-  .reason3{
+  .reason2 .list__item__paragraph{
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+
+  .reason3 .list__item__tittle{
     grid-column: 3/4;
     grid-row: 1/2;
+  }
+  .reason3 .list__item__paragraph{
+    grid-column: 3/4;
+    grid-row: 2/3;
   }
 }
