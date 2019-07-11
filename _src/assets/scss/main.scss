@@ -189,3 +189,14 @@ body{
   align-items: center;
   margin: auto;
 }
+/*FOOTER*/
+.link-scroll-up__container{
+  background-color: #ffffff;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(-50%);
+}
