@@ -3,6 +3,9 @@
   margin: 0px;
   padding: 0px;
 }
+body{
+  background-color: pink;
+}
 
 
 /*HEADER*/
@@ -81,7 +84,11 @@
 }
 
 /*SECTION MAIN INTRODUCTION*/
+.main__introduction {
+  background-color: lightblue;
+}
 .introduction-container {
+  background-color: yellow;
   margin-top: 30px;
   margin-bottom: 45px;
   text-align: left;
@@ -130,4 +137,5 @@
 .link-go:visited{
   text-decoration: none;
 }
+/*3 reasons*/
 
