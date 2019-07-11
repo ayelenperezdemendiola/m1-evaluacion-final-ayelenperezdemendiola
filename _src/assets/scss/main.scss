@@ -1,8 +1,23 @@
+/*ALL*/
 * {
   margin: 0px;
   padding: 0px;
 }
+
+
 /*HEADER*/
+.page__header{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  box-sizing: border-box;
+  background-color: #0271bc;
+  width: 44px;
+  height: 44px;
+}
+.menu__icon{
+  margin: 14px;
+}
 
 /*HERO*/
 .main__hero {
