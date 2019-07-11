@@ -1,11 +1,5 @@
 /*ALL*/
-* {
-  margin: 0px;
-  padding: 0px;
-}
-.central__column{
-  margin: 0 15px;
-}
+@import 'layout/container';
 
 /*HEADER*/
 @import 'layout/header';
