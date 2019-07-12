@@ -4,11 +4,11 @@
   text-transform: uppercase;
   font-family: $fontText;
   font-size: $fontSizeMenu;
-  background-color: #304268;
+  background-color:$background-footer;
   padding-bottom: 45px;
 }
 .link-scroll-up__container{
-  background-color: #ffffff;
+  background-color: $white;
   width: 45px;
   height: 45px;
   border-radius: 50%;
@@ -28,7 +28,7 @@
 
 .link-menu{
   text-decoration: none;
-  color: #ffffff;
+  color: $white;
     &:hover{
     text-decoration: none
     }
@@ -46,7 +46,7 @@
 
 .link-social-media{
   text-decoration: none;
-  color: #ffffff;
+  color: $white;
     &:hover{
   text-decoration: none;
     }
@@ -56,13 +56,13 @@
   }
 
 .heart{
-  color: #f26002;
+  color: $orange;
 }
 
 .copy-text__container{
     text-transform: lowercase;
     font-size: $fontSizeSmall;
-    color: #ffffff;
+    color: $white;
     line-height: 30px;
 }
 

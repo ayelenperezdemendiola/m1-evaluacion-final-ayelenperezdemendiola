@@ -1,14 +1,14 @@
 .introduction-container {
   text-align: left;
   line-height: 30px;
-  background-color: #ffffff;
+  background-color: $white;
   margin: 30px 0 45px;
 }
 
 .introduction__text{
   font-family: $fontText;
   font-size: $fontSizeSmall;
-  color: #8ccbea;
+  color: $color-small-text-intro;
   text-transform: capitalize;
   @media all and(min-width: 1200px){
     font-size: 16px;
@@ -38,8 +38,8 @@
   }
 }
 .container-link {
-  background-color: #ffffff;
-  border: solid 2px #f26002;
+  background-color: $white;
+  border: solid 2px $orange;
   border-radius: 22px;
   width: 76px;
   height: 45px;
@@ -61,7 +61,7 @@
 .link-go{
   font-family: $fontText;
   font-size: 20px;
-  color: #f26002;
+  color: $orange;
   text-decoration: none;
     &:hover{
     text-decoration: none;

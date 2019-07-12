@@ -19,7 +19,7 @@
   font-family: $fontTittle;
   font-size: $fontSizeH1;
   font-weight: bold;
-  color: #ffffff;
+  color: $white;
   text-align: center;
   width: 250px;
     @media all and (min-width: 768px){
@@ -37,7 +37,7 @@
   font-family: $fontText;
   font-size: 16px;
   font-weight: normal;
-  color: #ffffff;
+  color: $white;
   @media all and (min-width: 768px){
     font-size: 24px;
   }
@@ -45,7 +45,7 @@
 
 .hero__button-container{
   margin-bottom: 50px;
-  background-color: #ffffff;
+  background-color: $white;
   width: 45px;
   height: 45px;
   border-radius: 50%;
@@ -59,6 +59,7 @@
   text-decoration: none;
     &:hover{
     text-decoration: none;
+    transform: scale(1.1);
     }
     &:visited{
     text-decoration: none;
