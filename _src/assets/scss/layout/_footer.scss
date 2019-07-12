@@ -19,6 +19,10 @@
   align-items: center;
   transform: translateY(-50%);
   margin: auto;
+  transition: transform ease 0.2s;
+  &:hover{
+    transform: translateY(-60%) rotate(-360deg) scale(1.1);
+  }
 }
 
 /*nav*/
