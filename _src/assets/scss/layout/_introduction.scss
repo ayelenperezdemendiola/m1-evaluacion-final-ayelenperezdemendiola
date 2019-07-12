@@ -10,7 +10,7 @@
   font-size: $fontSizeSmall;
   color: $color-small-text-intro;
   text-transform: capitalize;
-  @media all and(min-width: 1200px){
+    @media all and(min-width: 1200px){
     font-size: 16px;
   }
 }
@@ -20,10 +20,10 @@
   font-size: $fontSizeH2;
   font-weight: bold;
   text-transform: capitalize;
-  @media all and(min-width: 768px){
+    @media all and(min-width: 768px){
     font-size: 26px;
   }
-  @media all and(min-width: 1200px){
+    @media all and(min-width: 1200px){
     font-size: 32px;
   }
 }
@@ -33,7 +33,7 @@
   font-size: $fontSizeText;
   font-weight: 300;
   margin-top: 15px;
-  @media all and(min-width:768px){
+    @media all and(min-width:768px){
     font-size: 20px;
   }
 }
@@ -48,13 +48,13 @@
   align-items: center;
   margin-top: 30px;
     &:hover{
-      transform: scale(1.1);
-    }
+    transform: scale(1.1);
+  }
     @media all and(min-width: 768px){
-      width: 91px;
-    }
+    width: 91px;
+  }
     @media all and(min-width: 1200px){
-      width: 160px;
+    width: 160px;
 }
 }
 
@@ -65,7 +65,7 @@
   text-decoration: none;
     &:hover{
     text-decoration: none;
-    }
+  }
     &:visited{
     text-decoration: none;
   }

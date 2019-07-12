@@ -25,11 +25,11 @@
     @media all and (min-width: 768px){
       font-size: 80px;
       width: 500px;
-    }
+  }
     @media all and(min-width: 1200px){
       font-size: 100px;
       width: 600px;
-    }
+  }
 }
 
 .hero__description{
@@ -38,7 +38,7 @@
   font-size: 16px;
   font-weight: normal;
   color: $white;
-  @media all and (min-width: 768px){
+    @media all and (min-width: 768px){
     font-size: 24px;
   }
 }
@@ -60,8 +60,8 @@
     &:hover{
     text-decoration: none;
     transform: scale(1.1);
-    }
+  }
     &:visited{
     text-decoration: none;
-    }
   }
+}

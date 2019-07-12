@@ -6,6 +6,7 @@
 .reasons__list {
   list-style: none;
 }
+
 .reasons__tittle{
   font-family: $fontTittle;
   font-size: $fontSizeH2;
@@ -15,7 +16,7 @@
   }
   @media all and(min-width: 1200px){
   font-size: 32px;
-}
+  }
 }
 
 .list__item__tittle{
@@ -45,19 +46,10 @@
 .list__item:nth-child{
   margin: none;
 }
+
 .button__more-reasons{
   text-decoration: none;
   border: none;
-}
-.button__more-reasons:hover{
-    text-decoration: none;
-    border: none;
-  }
-.button__more-reasons:visited{
-    text-decoration: none;
-    border: none;
-  }
-.button__more-reasons{
   width: 184px;
   height: 45px;
   background-color: $orange;
@@ -72,6 +64,12 @@
   margin: auto;
     &:hover{
       transform: scale(1.1);
+      text-decoration: none;
+      border: none;
+  }
+    &:visited{
+    text-decoration: none;
+    border: none;
   }
   @media all and (min-width: 768px){
     width: 210px;
