@@ -6,10 +6,15 @@
 .central__column{
   margin: 0 15px;
     @media all and(min-width: 768px){
-    margin: 0 40px;
+    margin: 0 39px;
     }
     @media all and(min-width: 1200px){
     margin: 0 auto;
-    width: 1040px;
+    width: 650px;
     }
+}
+@media all and (min-width: 1200px){
+.page__reasons .central__column{
+  width: 1040px;
+}
 }

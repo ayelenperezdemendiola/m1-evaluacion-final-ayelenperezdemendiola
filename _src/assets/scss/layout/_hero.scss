@@ -9,13 +9,6 @@
   text-align: center;
 }
 
-.hero .central__column{
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: center;
-  text-align: center;
-}
-
 .tittle-description{
   transform: translateY(-50%);
 }
@@ -27,11 +20,15 @@
   font-size: $fontSizeH1;
   font-weight: bold;
   color: #ffffff;
+  text-align: center;
+  width: 250px;
     @media all and (min-width: 768px){
       font-size: 80px;
+      width: 500px;
     }
     @media all and(min-width: 1200px){
       font-size: 100px;
+      width: 600px;
     }
 }
 
