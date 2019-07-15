@@ -1,0 +1,18 @@
+.page__new-section{
+  background: $orange;
+  color: $white;
+  display: none;
+  @media all and (min-width: 768px){
+    display: block;
+  }
+}
+@media all and (min-width: 768px){
+  .subtittle-paragraph{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+.new-section__subtittle{
+  margin-top: 10px;
+}
